@@ -1,4 +1,4 @@
-# Timed (2 hours) Authentication Practice
+# Authentication Practice
 
 I used Express and Mongoose on the back-end, with a package called 'Validator' which adds more validations to Mongoose.
 I also used the JSON Web Token package for creating web tokens and the Express-JWT package, a package that contains middleware to authenticate users that are using a JWT. These allow me to send a JWT token when a user registers or logs in, to use middleware to then check for the token and, finally, to create an error handler for when there isn't a token, so that access can be denied if necessary.
