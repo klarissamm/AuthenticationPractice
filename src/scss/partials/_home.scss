@@ -1,0 +1,36 @@
+body {
+  font-family: $logo-font;
+}
+
+main {
+  padding: 80px;
+
+  h2, h4 {
+    color: $pink;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .form-control {
+    margin: 0 auto;
+    background-color: $off-white;
+    width: 600px;
+    margin-bottom: 30px;
+  }
+
+  .btn-primary {
+    position: absolute;
+    left: 350px;
+    background-color: $pink;
+    border: 2px solid $off-white;
+    color: $off-white;
+  }
+
+  .btn-primary:hover {
+    background-color: $off-white;
+    border: 2px solid $pink;
+    color: $pink;
+  }
+
+
+}
