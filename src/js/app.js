@@ -90,7 +90,8 @@ App.usersIndex = function(e) {
          <img class="card-img-top" src="http://fillmurray.com/300/300" alt="Card image cap">
          <div class="card-block">
            <h4 class="card-title">${user.username}</h4>
-           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <h6 class="card-title">${user.email}</h6>
+           <p class="card-text">Information about the user.</p>
            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
          </div>
        </div>`);
